@@ -1,8 +1,8 @@
-# Signed Graph Attack Project: Robustness and Vulnerability Analysis
+# Community-Aware Bridge-Centric Structural Disruption of Criminal Networks via Composite Centrality and Signed Network Analysis
 
 ## Abstract / Overview
 
-The **Signed Graph Attack Project** is a comprehensive Python framework designed to analyze the structural robustness of signed social networks (e.g., the Epinions dataset). In signed networks, edges carry positive (trust/friendship) or negative (distrust/enmity) weights. This project evaluates how removing highly influential nodes disrupts the network structure, specifically by measuring the drop in the **Largest Connected Component (LCC)** and the increase in overall network fragmentation.
+**Community-Aware Bridge-Centric Structural Disruption of Criminal Networks via Composite Centrality and Signed Network Analysis (CABCSDCNVCCSNA)** is a comprehensive Python framework designed to analyze the structural robustness of signed social networks (e.g., criminal networks, trust networks like the Epinions dataset). In signed networks, edges carry positive (trust/alliance) or negative (distrust/enmity) weights. This project evaluates how removing highly influential nodes disrupts the network structure, specifically by measuring the drop in the **Largest Connected Component (LCC)** and the increase in overall network fragmentation.
 
 The core contribution of this project is a **Proposed Attack Score**, which combines multiple structural and influence metrics (Degree, Betweenness, Bridge Score, and Signed Polarity) to identify the most critical nodes. The project then simulates network attacks by sequentially removing these nodes and compares the disruption against baseline attack strategies (Random, Degree-based, and Betweenness-based).
 
